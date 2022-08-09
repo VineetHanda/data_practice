@@ -1,0 +1,21 @@
+SBT
+"org.scalatest" %% "scalatest" % "3.2.9" % "test"
+"com.novocode" % "junit-interface" % "0.11" % "test->default"
+
+Maven
+<!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
+<dependency>
+    <groupId>org.scalatest</groupId>
+    <artifactId>scalatest_2.13</artifactId>
+    <version>3.2.9</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.novocode/junit-interface -->
+<dependency>
+    <groupId>com.novocode</groupId>
+    <artifactId>junit-interface</artifactId>
+    <version>0.11</version>
+    <scope>test</scope>
+</dependency>
+
